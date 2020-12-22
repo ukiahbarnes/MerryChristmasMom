@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Merry Christmas Mom</title>
+  <meta name="description" content="A Christmas gift, children to their mother.">
+  <meta name="Ukiah Barnes" content="Voices: Ukiah, Anthony, and Myah Barnes.">
+
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="https://use.typekit.net/exk4pxx.css">
+
+</head>
+
+<body>
+
+    <section id="mainBody">
+        <h1 class="headline">Merry Christmas Mom!</h1>
+
+        <figure id="audio">
+            <audio id="allVoices"
+                controls
+                src="audio/all.mp3">
+                    Your browser does not support the
+                    <code>audio</code> element.
+            </audio>
+            <audio class="UkiahsVoice"
+                controls
+                src="audio/ukiah.mp3">
+                    Your browser does not support the
+                    <code>audio</code> element.
+            </audio>
+            <audio
+                controls class="AnthonysVoice"
+                src="audio/anthony.mp3">
+                    Your browser does not support the
+                    <code>audio</code> element.
+            </audio>
+            <audio
+                controls class="MyahsVoice"
+                src="audio/myah2.mp3">
+                    Your browser does not support the
+                    <code>audio</code> element.
+            </audio>
+            
+        </figure>
+
+        <figure id="images">
+            <img id="all" class="ornaments" src="images/OrnamentButton.jpg" alt="All Voices Ornament Button" onclick="playAudio('playAll')">
+            <img id="ukiah" class="ornaments" src="images/OrnamentButton.jpg" alt="Ukiah's Voice Ornament Button" onclick="playAudio('playUkiah')">
+            <img id="anthony" class="ornaments" src="images/OrnamentButton.jpg" alt="Anthony's Voice Ornament Button" onclick="playAudio('playAnthony')">
+            <img id="myah" class="ornaments" src="images/OrnamentButton.jpg" alt="Myah's Voice Ornament Button" onclick="playAudio('playMyah')">
+        </figure>
+z
+        <div id="faces">
+            <p id="withLove"></p>
+            <figure>
+                <img id="ukiahFace" class="portraits" src="images/ukiah.jpg" alt="A picture of Ukiah">
+                <img id="anthonyFace" class="portraits" src="images/anthony.jpg" alt="A picture of Anthony">
+                <img id="myahFace" class="portraits" src="images/myah.jpg" alt="A picture of Myah">
+            </figure>
+        </div>
+    </section>
+
+  <script src="js/animation.js"></script>
+</body>
+</html>
